@@ -1,0 +1,192 @@
+/** {
+    border: 1px solid red;
+}*/
+
+body {
+    margin: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+    color: #636363;
+}
+
+.entrar {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    color: #41cbec;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    color: #3f3e3e;
+}
+
+footer h4{
+    margin: 5px 0 0 0;
+    color: gray;
+    
+}
+
+footer .hereadd:after {
+    content: "›";
+    font-size: 16px;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+    background: #bfbfbf;
+    color: #3f3e3e;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+form button {
+    padding: 10px;
+    background: white;
+    border: none;
+    color: #41cbec;
+    border-radius: 10px;
+    
+}
+
+form {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+form input {
+    height: 30px;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+
+}
+
+.part1 {
+    background: #f5f2f2;
+    margin-bottom: 40px;
+}
+
+.descripcion {
+    width: 500px;
+    height: 200px;
+    padding: 15px;
+    background: white;
+    position: relative;
+    left: 20px;
+    top: 330px;
+    opacity: 0.8;
+}
+
+.descripcion img {
+    border-radius: 50%;
+}
+
+.descripcion h5 {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+}
+
+.descripcion h2 {
+    font-family: 'Bitter', serif; 
+    font-size: 30px;
+}
+
+.descripcion h5 span {
+    margin-left: 220px;
+}
+
+.portada {
+    background: url("../imagenes/portada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1100px;
+    height: 600px;
+}
+
+.search {
+    text-align: right;
+}
+.menu li {
+    display: inline-block;
+    margin-left: 20px;
+    border-left: 1px solid white;
+    padding-left: 10px;
+}
+
+.menu {
+    display: inline-block;
+    position: absolute;
+    right: 220px;
+}
+
+.menu ul {
+    margin-top: 12px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.logo {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    padding-top: 5px;
+
+}
+
+.header {
+    position: relative;
+    background: #41cbec;
+    padding: 5px;
+}
+
+.blogs article {
+    width: 350px;
+    position: relative;
+}
+
+.blogs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
+
+.blogs article h3 {
+    font-family:'Raleway', sans-serif;
+    font-size: 25px;
+    margin: 15px auto;
+}
+
+.blogs article h5 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    margin: 10px auto 20px auto;
+}
+
+.blogs article span {
+    position: absolute;
+    right: 0;
+}
+
